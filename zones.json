@@ -1,0 +1,272 @@
+{
+  "zones": {
+    "Johor": [
+      {
+        "value": "JHR01",
+        "label": "JHR01 - Pulau Aur dan Pulau Pemanggil"
+      },
+      {
+        "value": "JHR02",
+        "label": "JHR02 - Johor Bahru, Kota Tinggi, Mersing, Kulai"
+      },
+      {
+        "value": "JHR03",
+        "label": "JHR03 - Kluang, Pontian"
+      },
+      {
+        "value": "JHR04",
+        "label": "JHR04 - Batu Pahat, Muar, Segamat, Gemas Johor, Tangkak"
+      }
+    ],
+    "Kedah": [
+      {
+        "value": "KDH01",
+        "label": "KDH01 - Kota Setar, Kubang Pasu, Pokok Sena (Daerah Kecil)"
+      },
+      {
+        "value": "KDH02",
+        "label": "KDH02 - Kuala Muda, Yan, Pendang"
+      },
+      {
+        "value": "KDH03",
+        "label": "KDH03 - Padang Terap, Sik"
+      },
+      {
+        "value": "KDH04",
+        "label": "KDH04 - Baling"
+      },
+      {
+        "value": "KDH05",
+        "label": "KDH05 - Bandar Baharu, Kulim"
+      },
+      {
+        "value": "KDH06",
+        "label": "KDH06 - Langkawi"
+      },
+      {
+        "value": "KDH07",
+        "label": "KDH07 - Puncak Gunung Jerai"
+      }
+    ],
+    "Kelantan": [
+      {
+        "value": "KTN01",
+        "label": "KTN01 - Bachok, Kota Bharu, Machang, Pasir Mas, Pasir Puteh, Tanah Merah, Tumpat, Kuala Krai, Mukim Chiku"
+      },
+      {
+        "value": "KTN02",
+        "label": "KTN02 - Gua Musang (Daerah Galas Dan Bertam), Jeli, Jajahan Kecil Lojing"
+      }
+    ],
+    "Melaka": [
+      {
+        "value": "MLK01",
+        "label": "MLK01 - SELURUH NEGERI MELAKA"
+      }
+    ],
+    "Negeri Sembilan": [
+      {
+        "value": "NGS01",
+        "label": "NGS01 - Tampin, Jempol"
+      },
+      {
+        "value": "NGS02",
+        "label": "NGS02 - Jelebu, Kuala Pilah, Rembau"
+      },
+      {
+        "value": "NGS03",
+        "label": "NGS03 - Port Dickson, Seremban"
+      }
+    ],
+    "Pahang": [
+      {
+        "value": "PHG01",
+        "label": "PHG01 - Pulau Tioman"
+      },
+      {
+        "value": "PHG02",
+        "label": "PHG02 - Kuantan, Pekan, Muadzam Shah"
+      },
+      {
+        "value": "PHG03",
+        "label": "PHG03 - Jerantut, Temerloh, Maran, Bera, Chenor, Jengka"
+      },
+      {
+        "value": "PHG04",
+        "label": "PHG04 - Bentong, Lipis, Raub"
+      },
+      {
+        "value": "PHG05",
+        "label": "PHG05 - Genting Sempah, Janda Baik, Bukit Tinggi"
+      },
+      {
+        "value": "PHG06",
+        "label": "PHG06 - Cameron Highlands, Genting Higlands, Bukit Fraser"
+      },
+      {
+        "value": "PHG07",
+        "label": "PHG07 - Zon Khas Daerah Rompin, (Mukim Rompin, Mukim Endau, Mukim Pontian)"
+      }
+    ],
+    "Perlis": [
+      {
+        "value": "PLS01",
+        "label": "PLS01 - Kangar, Padang Besar, Arau"
+      }
+    ],
+    "Pulau Pinang": [
+      {
+        "value": "PNG01",
+        "label": "PNG01 - Seluruh Negeri Pulau Pinang"
+      }
+    ],
+    "Perak": [
+      {
+        "value": "PRK01",
+        "label": "PRK01 - Tapah, Slim River, Tanjung Malim"
+      },
+      {
+        "value": "PRK02",
+        "label": "PRK02 - Kuala Kangsar, Sg. Siput , Ipoh, Batu Gajah, Kampar"
+      },
+      {
+        "value": "PRK03",
+        "label": "PRK03 - Lenggong, Pengkalan Hulu, Grik"
+      },
+      {
+        "value": "PRK04",
+        "label": "PRK04 - Temengor, Belum"
+      },
+      {
+        "value": "PRK05",
+        "label": "PRK05 - Kg Gajah, Teluk Intan, Bagan Datuk, Seri Iskandar, Beruas, Parit, Lumut, Sitiawan, Pulau Pangkor"
+      },
+      {
+        "value": "PRK06",
+        "label": "PRK06 - Selama, Taiping, Bagan Serai, Parit Buntar"
+      },
+      {
+        "value": "PRK07",
+        "label": "PRK07 - Bukit Larut"
+      }
+    ],
+    "Sabah": [
+      {
+        "value": "SBH01",
+        "label": "SBH01 - Bahagian Sandakan (Timur), Bukit Garam, Semawang, Temanggong, Tambisan, Bandar Sandakan, Sukau"
+      },
+      {
+        "value": "SBH02",
+        "label": "SBH02 - Beluran, Telupid, Pinangah, Terusan, Kuamut, Bahagian Sandakan (Barat)"
+      },
+      {
+        "value": "SBH03",
+        "label": "SBH03 - Lahad Datu, Silabukan, Kunak, Sahabat, Semporna, Tungku, Bahagian Tawau  (Timur)"
+      },
+      {
+        "value": "SBH04",
+        "label": "SBH04 - Bandar Tawau, Balong, Merotai, Kalabakan, Bahagian Tawau (Barat)"
+      },
+      {
+        "value": "SBH05",
+        "label": "SBH05 - Kudat, Kota Marudu, Pitas, Pulau Banggi, Bahagian Kudat"
+      },
+      {
+        "value": "SBH06",
+        "label": "SBH06 - Gunung Kinabalu"
+      },
+      {
+        "value": "SBH07",
+        "label": "SBH07 - Kota Kinabalu, Ranau, Kota Belud, Tuaran, Penampang, Papar, Putatan, Bahagian Pantai Barat"
+      },
+      {
+        "value": "SBH08",
+        "label": "SBH08 - Pensiangan, Keningau, Tambunan, Nabawan, Bahagian Pendalaman (Atas)"
+      },
+      {
+        "value": "SBH09",
+        "label": "SBH09 - Beaufort, Kuala Penyu, Sipitang, Tenom, Long Pasia, Membakut, Weston, Bahagian Pendalaman (Bawah)"
+      }
+    ],
+    "Selangor": [
+      {
+        "value": "SGR01",
+        "label": "SGR01 - Gombak, Petaling, Sepang, Hulu Langat, Hulu Selangor, S.Alam"
+      },
+      {
+        "value": "SGR02",
+        "label": "SGR02 - Kuala Selangor, Sabak Bernam"
+      },
+      {
+        "value": "SGR03",
+        "label": "SGR03 - Klang, Kuala Langat"
+      }
+    ],
+    "Sarawak": [
+      {
+        "value": "SWK01",
+        "label": "SWK01 - Limbang, Lawas, Sundar, Trusan"
+      },
+      {
+        "value": "SWK02",
+        "label": "SWK02 - Miri, Niah, Bekenu, Sibuti, Marudi"
+      },
+      {
+        "value": "SWK03",
+        "label": "SWK03 - Pandan, Belaga, Suai, Tatau, Sebauh, Bintulu"
+      },
+      {
+        "value": "SWK04",
+        "label": "SWK04 - Sibu, Mukah, Dalat, Song, Igan, Oya, Balingian, Kanowit, Kapit"
+      },
+      {
+        "value": "SWK05",
+        "label": "SWK05 - Sarikei, Matu, Julau, Rajang, Daro, Bintangor, Belawai"
+      },
+      {
+        "value": "SWK06",
+        "label": "SWK06 - Lubok Antu, Sri Aman, Roban, Debak, Kabong, Lingga, Engkelili, Betong, Spaoh, Pusa, Saratok"
+      },
+      {
+        "value": "SWK07",
+        "label": "SWK07 - Serian, Simunjan, Samarahan, Sebuyau, Meludam"
+      },
+      {
+        "value": "SWK08",
+        "label": "SWK08 - Kuching, Bau, Lundu, Sematan"
+      },
+      {
+        "value": "SWK09",
+        "label": "SWK09 - Zon Khas (Kampung Patarikan)"
+      }
+    ],
+    "Terengganu": [
+      {
+        "value": "TRG01",
+        "label": "TRG01 - Kuala Terengganu, Marang, Kuala Nerus"
+      },
+      {
+        "value": "TRG02",
+        "label": "TRG02 - Besut, Setiu"
+      },
+      {
+        "value": "TRG03",
+        "label": "TRG03 - Hulu Terengganu"
+      },
+      {
+        "value": "TRG04",
+        "label": "TRG04 - Dungun, Kemaman"
+      }
+    ],
+    "Wilayah Persekutuan": [
+      {
+        "value": "WLY01",
+        "label": "WLY01 - Kuala Lumpur, Putrajaya"
+      },
+      {
+        "value": "WLY02",
+        "label": "WLY02 - Labuan"
+      }
+    ]
+  }
+}
