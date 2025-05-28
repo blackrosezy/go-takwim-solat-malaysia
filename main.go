@@ -189,8 +189,8 @@ func worker(jobChan <-chan DownloadJob, resultChan chan<- DownloadResult, wg *sy
 			continue
 		}
 
-		// Download the file
-		if err := downloadFile(client, job.URL, job.FilePath); err != nil {
+		// Download and process the file
+		if err := downloadAndProcessFile(client, job.URL, job.FilePath); err != nil {
 			result.Error = err
 			result.Status = "failed"
 		} else {
@@ -204,7 +204,7 @@ func worker(jobChan <-chan DownloadJob, resultChan chan<- DownloadResult, wg *sy
 	}
 }
 
-func downloadFile(client *http.Client, url, filepath string) error {
+func downloadAndProcessFile(client *http.Client, url, filepath string) error {
 	// Make HTTP request
 	resp, err := client.Get(url)
 	if err != nil {
@@ -217,6 +217,27 @@ func downloadFile(client *http.Client, url, filepath string) error {
 		return fmt.Errorf("bad status: %s", resp.Status)
 	}
 
+	// Read response body
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return fmt.Errorf("failed to read response body: %w", err)
+	}
+
+	// Parse JSON to remove serverTime field
+	var jsonData map[string]interface{}
+	if err := json.Unmarshal(body, &jsonData); err != nil {
+		return fmt.Errorf("failed to parse JSON: %w", err)
+	}
+
+	// Remove serverTime field if it exists
+	delete(jsonData, "serverTime")
+
+	// Marshal back to JSON with proper formatting
+	cleanedJSON, err := json.MarshalIndent(jsonData, "", "  ")
+	if err != nil {
+		return fmt.Errorf("failed to marshal cleaned JSON: %w", err)
+	}
+
 	// Create the file
 	out, err := os.Create(filepath)
 	if err != nil {
@@ -224,8 +245,8 @@ func downloadFile(client *http.Client, url, filepath string) error {
 	}
 	defer out.Close()
 
-	// Copy response body to file
-	_, err = io.Copy(out, resp.Body)
+	// Write cleaned JSON to file
+	_, err = out.Write(cleanedJSON)
 	if err != nil {
 		return fmt.Errorf("failed to write file: %w", err)
 	}
